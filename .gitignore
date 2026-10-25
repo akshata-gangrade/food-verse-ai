@@ -1,0 +1,53 @@
+# Environments & Secrets
+.env
+*.env.local
+.venv/
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+htmlcov/
+.coverage
+
+# Node & Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.turbo
+
+# OS & Editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Scratch media
+sample_food.png
+sample_produce.png
+sample_kitchen.png
+sample_bad_file.txt
+
+# All environment and secret files
+.env.*
+**/.env
+**/.env.*
+!.env.example
+**/!.env.example
+
+# Build and local tooling
+coverage/
+.mypy_cache/
+.ruff_cache/
